@@ -8,6 +8,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
+        "https://telemedicine-git-main-namantomar7s-projects.vercel.app",
+        "https://telemedicine-njkywtv3b-namantomar7s-projects.vercel.app",
         "https://telemedicine-vi8i5r1nv-namantomar7s-projects.vercel.app"
     ],
     allow_credentials=True,
